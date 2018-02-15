@@ -639,7 +639,7 @@ footer.footer {
 		padding:0;
 	}
 
-	.btn, .btn-lined {
+	.btn, .btn-lined:hover {
 		border: black !important;
 		color:black !important;
 		background-color: white;
