@@ -190,7 +190,7 @@ nav {
 	line-height: 1.25em;
 	font-size: 60px;
 	letter-spacing: 3px;
- font-weight: 900;
+	font-weight: 900;
 	word-wrap: break-word;
 	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
@@ -646,10 +646,13 @@ footer.footer {
 	}
 
 	.program-caption {
-		text-align: center;
+		text-align: center !important;
 		padding-bottom: 0.5rem;
 	}
 
+	.program-caption p {
+		text-align: center !important;
+	}
 	.features-box {
 		text-align: center;
 	}
@@ -730,7 +733,9 @@ footer.footer {
 	.btn-info:hover {
 		background-color: #323641;
 	}
-
+	.program-caption p {
+		text-align: center !important;
+	}
 	.program-caption {
 		text-align: center;
 		padding-bottom: 0.5rem;
@@ -742,6 +747,9 @@ footer.footer {
 
 	.details h2{
 		font-size: 1.5rem;
+	}
+	.btn-line {
+		margin-top: 1rem;
 	}
 }
 
